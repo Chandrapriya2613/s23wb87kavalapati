@@ -22,7 +22,7 @@ block content
   div(class="container-fluid")
   div(class="row")
    each b,index  in results
-    div(class="col-sm-2" onclick =`buy(${index})`) Breed : #{b.breed}, Color : #{b.color}, price : #{b.price}
+    div(class="col-sm-2" onclick =`buy(${index})`)   Breed : #{b.breed},Color : #{b.color},price : #{b.price}
     script.
         function buy(a)
         {
